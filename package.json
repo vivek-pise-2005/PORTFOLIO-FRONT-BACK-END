@@ -1,0 +1,25 @@
+{
+  "name": "vivek-sunil-pise-portfolio",
+  "version": "1.0.0",
+  "description": "2026 Premium 3D Developer Portfolio for Vivek Sunil Pise",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,magenta\" \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start": "npm run start --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "portfolio",
+    "data-science",
+    "data-analytics",
+    "react",
+    "threejs",
+    "nodejs"
+  ],
+  "author": "Vivek Sunil Pise",
+  "license": "MIT"
+}
